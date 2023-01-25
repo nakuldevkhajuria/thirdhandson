@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+.App{
+  /* display: flex; */
+  align-items: center;
+  margin-top:  2rem;
+ 
+}
+.App{
+ 
+  
+}
+
+.form{
+  /* display: block; */
+  margin: 4rem auto;
+  /* height: 90%; */
+  
+}
+.form,input{
+  display: inline;
+  width: 10rem;
+  font-size: 20px;
+ margin: .6rem auto;
+  /* border: #282c34 solid .1rem; */
+  border-radius: 8px ;
+}
+.list{
+  /* border: black 4rem; */
+  /* width: 80%; */
+  /* height: auto; */
+
+  margin: 4rem 4rem;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  background-color: #9ecfd8;
+ 
+  background-size: cover;
+  /* justify-content: space-between; */
+}
+.button{
+  font-size: 25px;
+  margin: 0rem auto 0rem auto;
+  border: black 2px solid;
+  border-radius: 30px;
+  background-color: #61dafb;
+  padding: 1rem;
+  width: 20vw;
+}
+.wholeDiv{
+  border: rgb(193, 230, 62) solid;
+  background-color: rgb(50, 85, 131);
+  border-radius: 2rem;
+  font-size: 15px;
+  margin: 2rem 2rem;
+  padding: 1.6rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 21rem;
+  /* width: 80%;
+  margin: 2rem auto; */ 
+  /* flex-flow: row wrap; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+}
